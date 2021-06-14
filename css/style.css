@@ -153,21 +153,6 @@ a {
   color: unset;
 }
 
-.ibg {
-  background: center/cover no-repeat;
-  position: relative;
-}
-
-.ibg img {
-  width: 0;
-  height: 0;
-  position: absolute;
-  top: 0;
-  left: 0;
-  opacity: 0;
-  visibility: hidden;
-}
-
 @font-face {
   font-family: "libre-franklin";
   font-display: swap;
@@ -294,17 +279,6 @@ body._lock {
 
 .fullscreen__content {
   background-color: rgba(198, 108, 73, 0.3);
-}
-
-.btn {
-  display: -webkit-inline-box;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
-  padding: 0px 0px;
-}
-
-.btn_fw {
-  width: 100%;
 }
 
 .main-title {
