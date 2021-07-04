@@ -775,28 +775,6 @@ body._pc .footer__icon:active {
     margin-right: 0px;
   }
 
-  .menu__link {
-    -webkit-transition: font-weight 0.3s ease 0s;
-    -o-transition: font-weight 0.3s ease 0s;
-    transition: font-weight 0.3s ease 0s;
-  }
-
-  .menu__link:hover {
-    font-weight: 700;
-  }
-
-  .hello__more {
-    -webkit-transition: all 0.3s ease 0s;
-    -o-transition: all 0.3s ease 0s;
-    transition: all 0.3s ease 0s;
-  }
-
-  .hello__more:hover {
-    color: #c66c49;
-    text-decoration: none;
-    font-weight: 600;
-  }
-
   .skills__columns {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1319,6 +1297,30 @@ body._pc .footer__icon:active {
 
   .footer__text._hidden {
     display: none;
+  }
+}
+
+@media (any-hover: hover) {
+  .menu__link {
+    -webkit-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+  }
+
+  .menu__link:hover {
+    font-weight: 700;
+  }
+
+  .hello__more {
+    -webkit-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+  }
+
+  .hello__more:hover {
+    color: #c66c49;
+    text-decoration: none;
+    font-weight: 600;
   }
 }
 
