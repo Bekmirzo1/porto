@@ -76,9 +76,11 @@ if (slider) {
 const footerIcon = document.querySelector('.footer__icon');
 if (footerIcon) {
     footerIcon.addEventListener('click', function () {
-        window.scrollTo({
-            top: 0,
-            behavior: "smooth"
-        })
+        const moveTo = new MoveTo({
+            tolerance: 0,
+            duration: 800,
+            easing: 'easeOutQuart'
+        });
+        moveTo.move(document.body);
     });
 }
